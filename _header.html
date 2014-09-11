@@ -15,6 +15,8 @@
       <link rel="stylesheet" href="<%= css %>">
     <% end %>
 
+    <script src="<%= @config['requirejs_include'] %>" data-main="<%= @config['requirejs_main'] %>"></script>
+
     <!--[if lt IE 9]>
       <script src="theme-build/polyfill/html5shiv.js"></script>
       <script src="theme-build/polyfill/respond.min.js"></script>
